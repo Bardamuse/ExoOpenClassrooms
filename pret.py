@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 # PYTHON 2.7
 
+################################ Projet Pret de matériel ########################
+
 import mysql.connector
-conn = mysql.connector.connect(host="localhost",user="root",password="bitagenou", database="coop")
+conn = mysql.connector.connect(host="localhost",user="root",password="blablabla", database="coop")
 cursor=conn.cursor()
 
 # ************** ENREGISTRER personne ****************
