@@ -1,0 +1,26 @@
+BASE
+
+Créer	CREATE DATABASE nom_base;
+Supprimer	DROP DATABASE nom_base;
+Utiliser 	USE  nom_base ;
+
+TABLE
+créer 	CREATE TABLE NomTable (   )	
+Voir la liste des tables	SHOW TABLES;
+Voir une table 	DESCRIBE 	NomTable ;
+Supprimer	DROP TABLE NomTable ; 
+
+CHAMPS
+Créer		ALTER TABLE Animal ADD jeter TEXT;
+Supprimer	ALTER TABLE Animal DROP jeter ;
+Modifier 
+	le nom 	ALTER TABLE Animal CHANGE sexe genre CHAR(1) ;
+
+ENREGISTREMENT 
+
+Créer	INSERT INTO Animal VALUES(....)
+	INSERT INTO Animal(espece, sexe,nom) 	VALUES('cochon','F','Nafnaf'), ('cochon','M','Nifnif') ;
+
+Supprimer	DELETE FROM Animal WHERE nom IS NULL ;
+
+Modifier		UPDATE pret SET date_retour="2018-10-11" WHERE id=4 ;
